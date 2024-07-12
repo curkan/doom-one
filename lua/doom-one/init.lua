@@ -100,6 +100,8 @@ doom_one.set_colorscheme = function()
 	set_hl("WildMenu", { bg = palette.dark_blue, fg = "fg" })
 	set_hl("Separator", { fg = palette.fg_alt })
 	set_hl("VertSplit", { bg = "bg", fg = palette.grey })
+	set_hl("WinSeparator", { bg = "bg", fg = palette.grey })
+	set_hl("BufferLineSeparator", { bg = "bg", fg = palette.grey })
 
 	set_hl("TabLine", { bg = palette.bg_alt, fg = palette.base7, bold = true })
 	set_hl("TabLineSel", { bg = "bg", fg = palette.blue, bold = true })
